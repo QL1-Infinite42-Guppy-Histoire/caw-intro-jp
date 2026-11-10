@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CAW 紹介サイト（QL1版）｜ 会社が真ん中にいないSNS、日本語かんたんガイド</title>
+<meta name="description" content="QL1で動くSNS「CAW」を日本人向けにやさしく紹介。CAWとは何か、アプリとWebの2つの入口、名前の取り方、はじめ方、安全な使い方まで。専門用語なしで読めます。">
+<meta property="og:title" content="CAW 紹介サイト（QL1版）">
+<meta property="og:description" content="会社が真ん中にいないSNS「CAW」を、QL1で。日本語かんたんガイド。">
+<meta property="og:type" content="website">
+<meta property="og:image" content="icon.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<script>
+  (function(){try{if(localStorage.getItem('guppy-theme')==='dark'){document.documentElement.dataset.theme='dark';}}catch(e){}})();
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="brandbar">
+  <div class="brandbar-inner">
+    <a class="brandbar-name" href="https://ql1-infinite42-guppy-histoire.github.io/links/" target="_blank" rel="noopener">🐟 Guppy's Guide（グッピーズガイド）</a>
+    <span class="brandbar-tag">あわてないで。42 Chain・QL1 のための道具箱</span>
+    <button id="themeBtn" class="theme-btn" type="button">🌙 黒背景</button>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap hero-inner">
+    <img class="appicon" src="icon.png" alt="CAW のアイコン">
+    <p class="kicker">QL1版 ・ 日本語ガイド</p>
+    <h1>CAW（コー）って、なに？</h1>
+    <p class="lead">CAW は、<strong>会社が真ん中にいない SNS</strong> です。<br>
+    X（旧Twitter）のように投稿・いいね・フォローができますが、投稿は会社のサーバーではなく、<strong>QL1 というチェーン（みんなで記録する大きなノート）</strong>に残ります。だから、運営会社の都合でアカウントが消されることがありません。</p>
+    <p class="lead-sub">もともとは Ethereum で始まった仕組みで、これは有志が QL1 で動くようにした<strong>コミュニティ版</strong>です（CAW公式のものではありません）。</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="https://ql1-infinite42-guppy-histoire.github.io/caw-social-app/ja.html" target="_blank" rel="noopener">📱 Androidアプリ（公開版 v0.4.9）</a>
+      <a class="btn btn-green" href="https://ql1-infinite42-guppy-histoire.github.io/caw-social-ql1/ja.html" target="_blank" rel="noopener">🌐 Web版を開く（iPhone・PCでもOK）</a>
+    </div>
+    <p class="cta-note">どちらも無料・オープンソースです。読むだけなら、どちらの入口も登録なしで今すぐ見られます。</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section>
+    <h2>ふつうのSNSと、なにが違うの？</h2>
+    <div class="grid grid-3">
+      <div class="card">
+        <div class="card-emoji">🏢🚫</div>
+        <h3>会社が真ん中にいない</h3>
+        <p>投稿やフォローの記録は QL1 のチェーン上に残ります。特定の会社が「やめます」と言っても、記録そのものは残り続けます。</p>
+      </div>
+      <div class="card">
+        <div class="card-emoji">🏷️</div>
+        <h3>「名前」がアカウント</h3>
+        <p>CAW では、好きな文字列の<strong>名前</strong>を1つ取ることが、そのままアカウント作りです。名前は世界に1つだけ。取った名前は後から変えられません。</p>
+      </div>
+      <div class="card">
+        <div class="card-emoji">🔑</div>
+        <h3>カギは自分で持つ</h3>
+        <p>パスワードを会社に預ける方式ではありません。あなたの「復元フレーズ（12個の英単語）」がアカウントのカギです。無くすと誰にも直せないので、紙に書いて保管します。</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>できること</h2>
+    <div class="grid grid-3">
+      <div class="card"><div class="card-emoji">📰</div><h3>タイムラインを読む</h3><p>みんなの新しい投稿が順番に並びます。ウォレットなしでも、読むだけならすぐできます。</p></div>
+      <div class="card"><div class="card-emoji">✏️</div><h3>投稿する</h3><p>名前を取れば投稿できます（1投稿は420バイトまで。日本語だとおよそ140文字ほどです）。返信や引用もできます。</p></div>
+      <div class="card"><div class="card-emoji">❤️</div><h3>いいね・Recaw</h3><p>気に入った投稿に「いいね」、広めたい投稿は「Recaw」（リポストのようなもの）ができます。</p></div>
+      <div class="card"><div class="card-emoji">👥</div><h3>フォローする</h3><p>気になる名前をフォローして、その人の投稿を追えます。フォロー関係もチェーンに記録されます。</p></div>
+      <div class="card"><div class="card-emoji">⭐</div><h3>超いいね（SuperLike）</h3><p>アプリだけの応援機能です。1回 1,000 CAT42 のうち、500 が投稿した人へ届き、500 はバーン（消滅）します。投稿に金色の ⭐ と件数が付きます。</p></div>
+      <div class="card"><div class="card-emoji">🪙</div><h3>名前にお金を入れておく</h3><p>自分の名前に qCAW を入れておくと、投稿などの料金はそこから払われます。そして、みんなが使った料金の一部がプールに集まり、入れている人全員に<strong>自動で少しずつ配られます</strong>（請求の操作は要りません）。</p></div>
+    </div>
+    <p class="note">※ 配られる量は、その時々の利用量で変わります。今の利用量ではごくわずかです。「必ず増える」「利回り○%」といった約束はできません。</p>
+  </section>
+
+  <section>
+    <h2>入口は2つあります</h2>
+    <div class="grid grid-2">
+      <div class="card entry">
+        <h3>📱 Androidアプリ（おすすめ）</h3>
+        <ul>
+          <li>投稿・いいね・Recaw・フォロー、全部入り</li>
+          <li>名前を取る、名前への入出金もアプリの中で完結</li>
+          <li>アプリの中で qCAW を買う案内つきの流れ（HuntersSwap／HuntersDEX）もあります：BNB や ETH から、順番に案内通りに進むだけ</li>
+          <li>超いいね（SuperLike）もアプリの機能です</li>
+        </ul>
+        <a class="btn btn-primary btn-block" href="https://ql1-infinite42-guppy-histoire.github.io/caw-social-app/ja.html" target="_blank" rel="noopener">ダウンロードページへ（v0.4.9）</a>
+        <p class="mini">Android 専用です。Play ストア以外からのインストールになるので、途中で確認が出たら「許可／インストール」で進んでください。</p>
+      </div>
+      <div class="card entry">
+        <h3>🌐 Web版（ブラウザ）</h3>
+        <ul>
+          <li>iPhone でも PC でも使えます。インストール不要</li>
+          <li>読む・名前を取る・投稿する、がブラウザの中でできます</li>
+          <li>投稿用ウォレットは<strong>ページの中</strong>に作ります。カギはあなたのブラウザの中に、パスワードで暗号化されて保存され、外に送られることはありません</li>
+          <li>名前を取る時だけ、手持ちのウォレットアプリを使います</li>
+        </ul>
+        <a class="btn btn-green btn-block" href="https://ql1-infinite42-guppy-histoire.github.io/caw-social-ql1/ja.html" target="_blank" rel="noopener">Web版を開く</a>
+        <p class="mini">Web版で投稿用のウォレットを作る時も、<strong>メインのウォレットのフレーズは絶対に入れないで</strong>ください。CAW専用の新しいものを作るのが安全です。</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>はじめ方（4ステップ）</h2>
+    <ol class="steps">
+      <li><strong>入口を開く</strong><span>Android の方はアプリ、iPhone・PC の方は Web版を開きます。まずタイムラインを眺めて、雰囲気を見てみてください。</span></li>
+      <li><strong>ウォレットを作る</strong><span>アプリ／ページの案内で新しく作ります。出てくる12個の英単語（復元フレーズ）は、<strong>紙に書いて、誰にも見せずに保管</strong>してください。これが唯一のカギです。CAW専用に新しく作るのがおすすめです。</span></li>
+      <li><strong>名前を取る</strong><span>使える文字は<strong>小文字の英字と数字だけ</strong>です（アンダースコアや記号は使えません）。短い名前ほど高く、長い名前ほど安くなります。例（目安）：7文字で 10,000,000 qCAW、13文字で 1,000,000 qCAW。実際の価格は取る直前に画面で確認してください。<strong>名前は後から変えられません。</strong></span></li>
+      <li><strong>qCAW を名前に入れて、投稿開始</strong><span>名前に qCAW を少し入れておけば、投稿・いいねなどの料金がそこから引かれます。手数料用の QOM が足りない時は、無料の蛇口（フォーセット）で少しもらえます。</span></li>
+    </ol>
+    <div class="cta-row">
+      <a class="btn btn-ghost" href="https://ql1-infinite42-guppy-histoire.github.io/42-faucet/" target="_blank" rel="noopener">🚰 QOM などがもらえる蛇口（フォーセット）</a>
+      <a class="btn btn-ghost" href="https://ql1-infinite42-guppy-histoire.github.io/guppys-guide-dashboard/" target="_blank" rel="noopener">🐟 Guppy's Guide ダッシュボード</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>出てくるコインの役割（ざっくり）</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>名前</th><th>役割</th></tr></thead>
+        <tbody>
+          <tr><td><strong>qCAW</strong></td><td>CAW の中のお金。名前を取る時と、投稿などの料金に使います。</td></tr>
+          <tr><td><strong>QOM</strong></td><td>QL1 の手数料用コイン。何か記録する時（名前を取る時など）に少し必要です。</td></tr>
+          <tr><td><strong>CAT42</strong></td><td>アプリの「超いいね」で使う応援用のコインです（半分は投稿した人へ、半分はバーン）。</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>安全のために（大事です）</h2>
+    <div class="grid grid-2">
+      <div class="card warn">
+        <h3>🤫 復元フレーズは絶対に教えない</h3>
+        <p>12個の英単語を知っている人は、あなたのアカウントとお金を全部操作できます。運営やサポートを名乗る人でも、フレーズを聞くことは<strong>絶対にありません</strong>。聞かれたら詐欺です。チャットやメールで送るのも禁止です。</p>
+      </div>
+      <div class="card warn">
+        <h3>🪪 CAW専用ウォレットを使おう</h3>
+        <p>大きなお金を入れているメインのウォレットのフレーズは、アプリやWeb版に入れないでください。CAW用に新しく作ったウォレットで始めるのが安全です。</p>
+      </div>
+      <div class="card warn">
+        <h3>🧪 まだ開発中の道具です</h3>
+        <p>このQL1版は有志のコミュニティが作ったもので、CAW公式のものではありません。開発途中のため、不具合が起きる可能性もあります。最初は<strong>無くなっても困らない小さな金額</strong>から始めてください。</p>
+      </div>
+      <div class="card warn">
+        <h3>🏷️ 名前は一生ものです</h3>
+        <p>取った名前は変更できません。アイコン画像も、名前から自動で作られるカードが正本で、好きな写真に差し替える機能は今のQL1版にはありません。よく考えてから取りましょう。</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>よくある質問</h2>
+    <div class="faq">
+      <details><summary>iPhone でも使えますか？</summary><p>はい。アプリは Android 専用ですが、Web版がブラウザで使えます。読む・名前を取る・投稿する、ができます。</p></details>
+      <details><summary>お金はかかりますか？</summary><p>読むだけなら無料です。名前を取る時に qCAW（名前の料金）と、記録の手数料として少しの QOM が必要です。投稿などの料金は、名前に qCAW を入れておいて、そこから少しずつ引かれます。</p></details>
+      <details><summary>名前は後から変えられますか？</summary><p>変えられません。取った瞬間に確定します。別の名前が欲しい場合は、新しくを取り直す形になります。</p></details>
+      <details><summary>アカウントが消されることはありますか？</summary><p>記録はチェーン上に残るので、会社都合で消える仕組みではありません。ただし、復元フレーズを無くすと、あなた自身も二度と入れなくなります。保管がいちばん大事です。</p></details>
+      <details><summary>qCAW はどこで手に入りますか？</summary><p>Androidアプリの中に、BNB や ETH から順番に案内してくれる買い方（HuntersSwap／HuntersDEX）が入っています。QL1 上の交換所（QomSwap）で QOM などと交換する方法もあります。</p></details>
+      <details><summary>これは CAW 公式のサービスですか？</summary><p>いいえ。Ethereum の CAW の仕組みを、有志が QL1 で動くようにしたコミュニティ版です。本家の考え方（マニフェスト）は <a href="https://caw.is" target="_blank" rel="noopener">caw.is</a> にあります。</p></details>
+    </div>
+  </section>
+
+  <section class="links-box">
+    <h2>リンクまとめ</h2>
+    <ul class="link-list">
+      <li><a href="https://ql1-infinite42-guppy-histoire.github.io/caw-social-app/ja.html" target="_blank" rel="noopener">📱 CAW Social アプリ（Android・ダウンロード）</a></li>
+      <li><a href="https://ql1-infinite42-guppy-histoire.github.io/caw-social-ql1/ja.html" target="_blank" rel="noopener">🌐 CAW Social Web版（QL1）</a></li>
+      <li><a href="https://ql1-infinite42-guppy-histoire.github.io/42-faucet/" target="_blank" rel="noopener">🚰 蛇口（フォーセット）— QOM などを少しもらう</a></li>
+      <li><a href="https://github.com/QL1-Infinite42-Guppy-Histoire/caw-social-app" target="_blank" rel="noopener">💻 アプリのソースコード（GitHub）</a></li>
+      <li><a href="https://github.com/QL1-Infinite42-Guppy-Histoire/caw-social-ql1" target="_blank" rel="noopener">💻 Web版のソースコード（GitHub）</a></li>
+      <li><a href="https://ql1-infinite42-guppy-histoire.github.io/links/" target="_blank" rel="noopener">🐟 Guppy's Guide（他の道具はこちら）</a></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="foot-brand">🐟 <a href="https://ql1-infinite42-guppy-histoire.github.io/links/" target="_blank" rel="noopener">Guppy's Guide（グッピーズガイド）</a></p>
+    <p>あわてないで。42 Chain・QL1 のための道具箱 — Don't Panic</p>
+    <p class="mini">この紹介サイトは QL1版 CAW（コミュニティ版）の日本語ガイドです。CAW公式のものではありません。内容は 2026年11月10日時点（アプリ公開版 v0.4.9／Web版 v12）をもとにしています。</p>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var btn=document.getElementById('themeBtn');
+    function label(){btn.textContent=document.documentElement.dataset.theme==='dark'?'☀️ 白背景':'🌙 黒背景';}
+    label();
+    btn.addEventListener('click',function(){
+      var dark=document.documentElement.dataset.theme==='dark';
+      if(dark){delete document.documentElement.dataset.theme;try{localStorage.removeItem('guppy-theme');}catch(e){}}
+      else{document.documentElement.dataset.theme='dark';try{localStorage.setItem('guppy-theme','dark');}catch(e){}}
+      label();
+    });
+  })();
+</script>
+</body>
+</html>
